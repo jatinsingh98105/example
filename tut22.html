@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo selectors and more designing</title>
+    <style>
+
+        .container
+        {
+            background-color: lightcyan;
+            border: 2px solid darkolivegreen;
+            margin: auto 20px;
+            padding: 7px;
+            width: 600px;
+        }
+
+        .btn
+        {
+            font-family:  'Lucida Grande' ;
+            font-weight: bold;
+            background-color: rgb(222, 239, 178);
+            padding: 2px;
+            border: none;
+            cursor: pointer;
+            font-size: 14px;
+            border-radius: 5px;
+        }
+
+        a
+        {
+            text-decoration:none;
+            color: blue;
+        }
+
+        a:hover
+        {
+            color: black;
+            background-color: rgb(189, 202, 238);
+        }
+
+        a:visited
+        {
+            color: yellow;
+            background-color: rgb(183, 211, 240);
+        }
+
+        a:active
+        {
+            background-color: darkblue;
+        }
+        .btn:hover
+        {
+            background-color: rgb(210, 235, 147);
+            border: 20px solid black;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container" id="count1">
+        <h3>This is  my heading</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia possimus obcaecati odio, delectus culpa deserunt blanditiis quos fuga laboriosam <a href="https://www.twitter.com" class="btn">Yaha Dabaye</a> alias perspiciatis amet voluptatibus, pariatur exercitationem quo. Minima dicta laudantium eligendi autem. Beatae, commodi totam.</p>
+        <a href="https://www.instagram.com" target="_blank" class="btn">Read More</a>
+        <button class="btn">Contact Us</button>
+    </div>
+</body>
+</html>
